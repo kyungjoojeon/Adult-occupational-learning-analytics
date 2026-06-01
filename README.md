@@ -116,36 +116,23 @@ artifact for the parsing layer.
 ## Repository Structure
 
 ```
-.
 ├── README.md
 ├── scripts/
-│   ├── 01_build_corpus.R          # Manifest-driven parser; produces all data layers
-│   ├── 02_make_figures.R          # Figure generation (Figs 1–6)
-│   └── 03_model_engagement.R      # Within-learner correlations, SMDs, pooled screens
+│   ├── 01_build_corpus.R          # Core data parsing logic
+│   ├── 02_make_figures.R          # Data visualization script
+│   └── sensitivity_checks.R       # Robustness and validation checks
 ├── data/
 │   ├── participant_metadata.csv
-│   ├── raw/
-│   │   ├── corpus_manifest_template.csv
-│   │   ├── corpus_manifest_local.csv    # Private paths; not committed
-│   │   └── chat_exports/               # Private .txt files; not committed
 │   ├── example/
-│   │   └── corpus_manifest_synthetic.csv
+│   │   └── corpus_synthetic_export.txt
 │   ├── processed/
 │   │   └── message_level_corpus.csv
 │   └── derived/
 │       ├── learner_week_summary.csv
 │       ├── learner_summary.csv
 │       ├── parsing_log.csv
-│       ├── descriptive_uncertainty.csv
-│       ├── within_learner_correlations.csv
-│       ├── learner_slopes.csv
-│       ├── slope_heterogeneity.csv
-│       ├── disruption_apology_uncertainty_differences.csv
-│       ├── sensitivity_disruption_smd.csv
-│       ├── sensitivity_largest_learner.csv
-│       ├── exploratory_model_results.csv
-│       ├── model_diagnostics.csv
-│       └── exploratory_analysis_summary.txt
+│       ├── learner_slopes.xlsx
+│       └── sensitivity_analysis_report.docx
 ├── figures/
 │   ├── fig1_weekly_engagement_by_learner.png
 │   ├── fig2_learner_trace_indicators.png
@@ -154,13 +141,10 @@ artifact for the parsing layer.
 │   ├── fig5_observation_coverage.png
 │   └── fig6_within_learner_slopes.png
 └── docs/
-    ├── codebook.md
-    ├── data_dictionary.md
-    ├── methodological_reflection_memo.md
-    ├── methodological_tradeoffs.md
-    ├── apology_uncertainty_validation_plan.md
-    ├── statistical_interpretation.md
-    └── figure_captions.md
+├── codebook.md
+├── data_dictionary.md.docx
+├── theoretical_framing.md
+└── indicator_validation_memo.md
 ```
 
 ---
