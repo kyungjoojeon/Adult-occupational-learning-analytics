@@ -1,5 +1,0 @@
-learner_id,learner_label,occupational_domain,observed_weeks,first_week,last_week,learner_messages,instructor_messages,mean_weekly_learner_messages,mean_english_proportion,disruption_weeks,mean_apology_uncertainty_rate,mean_correction_density,total_gt_corrections
-L001,Adult learner 01,Automotive / manufacturing,31,2025-08-24,2026-05-19,74,146,2.39,0.6513,4,0.0805,0.0221,0
-L002,Adult learner 02,Technology / engineering,104,2024-02-23,2026-05-18,354,460,3.4,0.5638,17,0.1041,0.0558,12
-L003,Adult learner 03,Consumer goods / corporate communication,79,2024-10-20,2026-05-18,1179,1618,14.92,0.9078,38,0.0553,0.0258,0
-L004,Adult learner 04,Technology / software,113,2024-02-19,2026-05-23,595,1619,5.27,0.9429,44,0.1593,0.0526,23

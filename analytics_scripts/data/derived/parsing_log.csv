@@ -1,5 +1,0 @@
-learner_id,source_file,file_found,raw_lines,date_header_lines,message_lines_matched,continuation_merges,gt_correction_lines,lines_unmatched,na_date_messages,total_messages,learner_messages,instructor_messages,unmatched_senders,unique_unmatched_senders,first_message_date,last_message_date,date_span_days,parse_note
-L001,Hyundai.txt,True,915,43,220,325,0,263,0,220,74,146,1,E GaEun Choi,2025-08-24,2026-05-20,269,
-L002,Samsung.txt,True,4040,154,814,1372,91,1302,0,814,354,460,1,E Dongjoon Lee,2024-02-23,2026-05-18,815,
-L003,yuhan kimberly.txt,True,7688,310,2797,2023,0,1804,0,2797,1179,1618,1,E Jisun Kim,2024-10-20,2026-05-22,579,
-L004,Google.txt,True,9276,401,2214,2803,84,2932,0,2214,595,1619,1,E yeongtae Cha,2024-02-19,2026-05-23,824,
