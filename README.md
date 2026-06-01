@@ -152,8 +152,7 @@ artifact for the parsing layer.
 │   ├── fig3_feedback_gap_by_learner.png
 │   ├── fig4_disruption_apology_uncertainty_by_learner.png
 │   ├── fig5_observation_coverage.png
-│   ├── fig6_within_learner_slopes.png
-│   └── fig7_learner_slopes_forest.png
+│   └── fig6_within_learner_slopes.png
 └── docs/
     ├── codebook.md
     ├── data_dictionary.md
