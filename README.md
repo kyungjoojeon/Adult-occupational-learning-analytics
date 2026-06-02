@@ -67,7 +67,7 @@ Comparison of apology/uncertainty marker rates during disruption-coded and non-d
 
 ### Figure 7. Forest Plot of Within-Learner Slopes
 
-![Figure 7](./figures/fig7_forest_plot_learner_slopes.png)
+![](figures/fig7_learner_slopes_forest.png)
 
 Learner-specific OLS slope estimates for English-language participation with 95% confidence intervals.
 
