@@ -1,0 +1,4 @@
+learner_id,source_file_path,instructor_sender_pattern,export_encoding,include_in_public_outputs
+L001,data/raw/chat_exports/learner_01.txt,Apple,UTF-8,FALSE
+L002,data/raw/chat_exports/learner_02.txt,Apple,UTF-8,FALSE
+L003,data/raw/chat_exports/learner_03.txt,Apple,UTF-8,FALSE
