@@ -411,8 +411,8 @@ fig7 <- ggplot(fig7_data,
                aes(x = estimate, y = learner_short, color = learner_id)) +
   geom_vline(xintercept = 0, linetype = "dashed",
              color = "grey55", linewidth = 0.7) +
-  geom_errorbarh(aes(xmin = conf_low, xmax = conf_high),
-                 height = 0.25, linewidth = 1.0, alpha = 0.65) +
+  geom_errorbar(aes(xmin = conf_low, xmax = conf_high), 
+              width = 0.25, linewidth = 1.0, alpha = 0.65) +
   geom_point(size = 3.5, shape = 16) +
   geom_text(data = sign_agree,
             aes(x = Inf, y = -Inf, label = agree_label),
