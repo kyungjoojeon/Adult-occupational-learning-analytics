@@ -2,6 +2,8 @@
 
 A reproducible learning analytics study examining longitudinal instructional communication among adult professional English learners.
 
+> **Preprint available:** Jeon, K. (2026). *Disruption, participation, and uncertainty language in adult occupational English learning: A longitudinal corpus study of KakaoTalk instructional messaging.* OSF Preprints. https://doi.org/10.35542/osf.io/k8nuz_v1
+
 ---
 
 ## Overview
@@ -79,19 +81,11 @@ Standardized mean differences estimated under multiple operational keyword defin
 
 ## Methodological Principles
 
-### Small-N Transparency
-
-The corpus contains four learners observed over unequal time spans. Analyses focus on within-learner comparisons rather than population-level inference.
-
-### Indicator Transparency
-
-Behavioral indicators are operational definitions, not validated psychological measures.
-
-| Indicator                  | Should Not Be Interpreted As   |
-| -------------------------- | ------------------------------ |
-| Schedule disruption marker | Objective workload measurement |
-| Apology/uncertainty marker | Anxiety or emotional state     |
-| Correction density         | Teaching quality               |
+| Indicator                  | What it measures               | What it does not measure       |
+| -------------------------- | ------------------------------ | ------------------------------ |
+| Schedule disruption marker | Objective workload measurement | Subjective stress              |
+| Apology/uncertainty marker | Communicative stance           | Anxiety or emotional state     |
+| Correction density         | Instructional response rate    | Teaching quality               |
 
 ### Sensitivity Analysis
 
@@ -168,4 +162,4 @@ This corpus contains four learners observed over unequal time spans. Indicators 
 
 ## Citation
 
-Jeon, K. (2026). *Adult Occupational English Learning Analytics: A Longitudinal Trace Analysis of Instructional Communication Data.* Working paper. https://github.com/kyungjoojeon/Adult-occupational-learning-analytics
+Jeon, K. (2026). Disruption, participation, and uncertainty language in adult occupational English learning: A longitudinal corpus study of KakaoTalk instructional messaging. *OSF Preprints*. https://doi.org/10.35542/osf.io/k8nuz_v1
